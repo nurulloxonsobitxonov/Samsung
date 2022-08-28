@@ -1,0 +1,94 @@
+.bigGrid {
+    margin-top: 75px;
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 457px;
+    border: 1px solid #CCCCCC;
+
+}
+
+.Grid div {
+    height: 456px;
+    border: 0.5px solid grey;
+}
+
+.Products,
+.Help,
+.stability,
+.about_us {
+    display: flex;
+    flex-direction: column;
+    color: rgb(49, 46, 46);
+    font-size: 14px;
+    justify-content: space-around;
+    padding: 30px 30px;
+}
+
+.Products b {
+    font-size: 20px;
+
+}
+
+.Help b {
+    font-size: 20px;
+    transform: translateY(-10px);
+}
+
+.stability b {
+    font-size: 20px;
+    transform: translateY(-5px);
+}
+
+.about_us b {
+    font-size: 20px;
+    transform: translateY(-5px);
+}
+
+.Products a,
+.Help a,
+.stability a {
+    color: rgb(49, 46, 46);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.about_us a {
+    color: rgb(49, 46, 46);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.Products a:hover {
+    text-decoration: underline;
+    color: #8E66C2;
+}
+
+.Help a:hover {
+    text-decoration: underline;
+    color: #8E66C2;
+}
+
+.stability a:hover {
+    text-decoration: underline;
+    color: #8E66C2;
+}
+
+.about_us a:hover {
+    text-decoration: underline;
+    color: #8E66C2;
+}
+
+.copyright {
+    width: 1224px;
+    position: absolute;
+    transform: translateY(455px);
+    height: 93px;
+    border: 1px solid #CCCCCC;
+    color: rgb(49, 46, 46);
+    padding-top: 50px;
+    font-size: 13px;
+}

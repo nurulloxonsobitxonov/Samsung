@@ -1,0 +1,123 @@
+/* .underline {
+    display: block;
+    width: 0px;
+    height: 3px;
+    background-color: #555555;
+    transition: 0.5s ease-in;
+    font-size: 37px;
+    margin-left: 500px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #000;
+}
+
+.underline:hover {
+    width: 33%;
+    color: #555555;
+}
+
+.container_img {
+    background-image: url("../Explore//img1.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+    border-radius: 50px;
+    margin-top: 100px;
+    margin-left: 30px;
+
+}
+
+.container_img:hover {
+    transform: scale(1.06);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.explore {
+    margin-top: 70px;
+    position: relative;
+}
+
+.d1 {
+
+    position: absolute;
+    right: 200px;
+    top: 170px;
+}
+
+.d2 {
+    position: absolute;
+    right: 330px;
+    top: 380px;
+}
+
+.d2:hover .container_img {
+    background-image: url("./img2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+    border-radius: 50px;
+}
+
+.o202 {
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    left: -50px;
+}
+
+.hr1 {
+    width: 173%;
+    position: absolute;
+    left: -100px;
+    margin-top: -10px;
+    height: 4px;
+    display: block;
+    background-color: #000;
+}
+
+.d1 span:first-child {
+    font-weight: 700;
+    padding-right: 70px;
+}
+
+.hr2 {
+    width: 570px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.o1 {
+    position: absolute;
+    left: -93px;
+    font-weight: 600;
+    top: 23px;
+}
+
+.o2 {
+    position: absolute;
+    top: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    width: 650px;
+    height: 70px;
+
+    left: -52px;
+}
+
+.d1 p {
+    padding-top: 20px;
+}
+
+.b {
+    font-weight: 600;
+    border-bottom: 2px solid black;
+
+    font-size: 13px;
+} */

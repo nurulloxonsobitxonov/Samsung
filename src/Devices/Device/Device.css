@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Device {
+    transform: translateY(-80px);
+}
+
+.img1 {
+    margin-left: 230px;
+    width: 910px;
+    height: 493px;
+}
+
+h3:first-child {
+    font-size: 40px;
+    text-align: center;
+}
+
+.s22 {
+    padding-top: 30px;
+    padding-left: 500px;
+    font-size: 45px;
+
+}
+
+.justify {
+
+    justify-content: space-around;
+    display: flex;
+    width: 80%;
+    margin-left: 100px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.justify>span:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.justify>span:first-child {
+    border-bottom: 3px solid black;
+}
+
+.justify>span {
+    font-size: 15px;
+}
+
+.batafsil {
+    text-decoration: none;
+    color: white;
+    width: 110px;
+    border-radius: 100px;
+    height: 40px;
+    list-style: none;
+    text-align: center;
+    padding-top: 12px;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 630px;
+    background-color: black;
+}
+
+.batafsil:hover {
+    background-color: gray;
+    cursor: pointer;
+}

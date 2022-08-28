@@ -1,0 +1,90 @@
+.Home {
+    background-image: url("./air.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.big_container {
+
+    justify-content: space-around;
+    display: flex;
+    width: 55%;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 300px;
+    margin-top: 0px;
+    color: white;
+    position: relative;
+}
+
+.h1_home {
+    color: white;
+    font-size: 40px;
+    padding-left: 550px;
+    padding-top: 30px;
+}
+
+.big_container span {
+    width: 130px;
+    background-color: transparent;
+    height: 50px;
+    border-radius: 100px;
+    text-align: center;
+    padding-top: 17px;
+}
+
+.big_container span:hover {
+
+    cursor: pointer;
+    background-color: #2E090699;
+
+
+
+}
+
+.big_container li {
+    list-style: none;
+    padding-top: 18px;
+    width: 250px;
+    background-color: transparent;
+    height: 30px;
+    border-radius: 100px;
+    text-align: center;
+    padding-top: 8px;
+    margin-top: 7px;
+}
+
+li:hover {
+
+    cursor: pointer;
+    background-color: #2E090699;
+}
+
+.big_container h1:nth-child(2) {
+    color: white;
+}
+
+.shamol {
+    text-align: center;
+    padding-top: 300px;
+    font-size: 50px;
+    color: white;
+}
+
+.btn2 {
+    width: 100px;
+    height: 40px;
+    border-radius: 100px;
+    margin-left: 45%;
+    margin-top: 40px;
+    background-color: white;
+}
+
+.btn2:hover {
+    background-color: #dddddd;
+    color: #313131;
+    cursor: pointer;
+}

@@ -1,0 +1,249 @@
+webimApplyServerSideSettings({
+    "accountBlocked": false,
+    "locationSettings": {
+        "button": {
+            "kind": "html",
+            "slider": {
+                "position": "left",
+                "top": 150,
+                "width": 261,
+                "alwaysVisibleWidth": 30
+            },
+            "corner": {
+                "position": "right-bottom"
+            },
+            "html": {
+                "style": {
+                    "background-color": "rgba(255,255,255,1)",
+                    "border-color": "#FFF",
+                    "image-color": "rgba(20,40,160,1)"
+                },
+                "draggable": "N",
+                "position": {
+                    "top": "initial",
+                    "left": "initial",
+                    "bottom": "calc(14% - (60px * 0.14))",
+                    "right": "calc(97% - (60px * 0.97))"
+                }
+            },
+            "name": "html",
+            "offlineEnabled": "N",
+            "channels": [
+                {
+                    "id": "ff276f4657864701a94028a5be307b35"
+                },
+                {
+                    "id": "a840d89bc0114607b48dfb03868897da"
+                },
+                {
+                    "id": "3eae03864f554d1ea40dc049dd89a573"
+                }
+            ],
+            "channel": {
+                "default": {
+                    "style": {}
+                },
+                "webim": {
+                    "name": "",
+                    "style": {
+                        "background-color": "rgba(255,255,255,1)",
+                        "border-color": "#FFF",
+                        "image-color": "rgba(20,40,160,1)"
+                    }
+                }
+            }
+        },
+        "invitation": {
+            "dontShow": false,
+            "theme": "static",
+            "position": "bottom-right",
+            "timeout": 90000,
+            "avatar": null,
+            "bg": null,
+            "fontColor": null
+        },
+        "chat": {
+            "lang": "ru",
+            "departmentKey": "facebook",
+            "chatEnterFirstMessage": "",
+            "defaultLayout": {
+                "size": {
+                    "width": "380",
+                    "height": "800"
+                },
+                "position": {
+                    "right": 10,
+                    "bottom": 10
+                }
+            },
+            "hintsEnabled": "N",
+            "visitorFields": {
+                "def": {
+                    "name": {
+                        "presence": "none",
+                        "validation": {
+                            "maxLength": 64
+                        }
+                    },
+                    "email": {
+                        "presence": "none",
+                        "validation": {
+                            "type": "email"
+                        }
+                    },
+                    "phone": {
+                        "presence": "none",
+                        "validation": {
+                            "mask": "+7 (XXX) XXX-XX-XX"
+                        }
+                    },
+                    "icq": {
+                        "presence": "none"
+                    },
+                    "login": {
+                        "presence": "none"
+                    },
+                    "company": {
+                        "presence": "none"
+                    },
+                    "passport_number": {
+                        "presence": "none"
+                    },
+                    "codeword": {
+                        "presence": "none"
+                    }
+                },
+                "firstQuestion": [],
+                "offlineMode": {
+                    "email": {
+                        "presence": "mandatory",
+                        "validation": {
+                            "type": "email"
+                        }
+                    }
+                },
+                "contactsRequest": []
+            },
+            "visitorFieldLabels": {
+                "name": null,
+                "phone": null,
+                "email": null,
+                "icq": null,
+                "login": null,
+                "company": null,
+                "passport_number": null,
+                "codeword": null
+            },
+            "logo": null,
+            "proposeToRateBeforeClose": "Y",
+            "showSelectModeMenu": "N",
+            "hideMenu": "N",
+            "messageDateFormat": "DD.MM",
+            "availableDepartmentKeys": [],
+            "headerColor": null,
+            "headerGradientColor": null,
+            "bgColor": null,
+            "buttonColor": null,
+            "buttonGradientColor": null,
+            "chooseDepartment": "Y",
+            "departmentsSort": "id",
+            "callbackHunterAvailableInOffline": null
+        },
+        "styles": {
+            "header": {
+                "background": "rgba(0,0,0,1)",
+                "gradient": "rgba(0,0,0,1)"
+            },
+            "body": {
+                "background": null
+            },
+            "button": {
+                "background": "rgba(0,0,0,1)",
+                "gradient": "rgba(0,0,0,1)"
+            },
+            "invitation-body": {
+                "background": null,
+                "color": null,
+                "font-size": "15"
+            },
+            "invitation-header": {
+                "background": ""
+            },
+            "messageAgent": {
+                "background": null
+            },
+            "messageVisitor": {
+                "background": null
+            }
+        },
+        "misc": {
+            "fixFlashWmode": false
+        },
+        "resources": {
+            "leavemessage-descr": null,
+            "first_question-descr": null,
+            "chat-operator-default_title": null,
+            "chat-window-personal_data_agreement": null
+        }
+    },
+    "accountConfig": {
+        "multilang": false,
+        "chatting_timer": false,
+        "google_analytics": true,
+        "yandex_metrika_counter_id": null,
+        "teleport": true,
+        "client_php_url": null,
+        "hide_referrer": false,
+        "force_visitor_https": false,
+        "visitor_tracking": true,
+        "force_visitor_disable": false,
+        "visitor_enabling_probability": 100,
+        "default_lang": "ru",
+        "rate_operator": true,
+        "allowed_upload_file_types": "png, jpg, jpeg, doc, docx, rtf, gif, txt, pdf, webp, oga, ogg",
+        "show_processing_personal_data_checkbox": true,
+        "visitor_websockets": false,
+        "visitor_upload_file": true,
+        "operator_check_status_online": 300,
+        "visitor_hints_api_endpoint": null,
+        "file_url_expiring_timeout": 86400,
+        "check_visitor_auth": false,
+        "operator_status_timer": false,
+        "visitor_message_editing": true,
+        "web_and_mobile_quoting": true,
+        "offline_chat_processing": true,
+        "open_chat_in_new_tab_for_mobile": true,
+        "max_visitor_upload_file_size": 10
+    },
+    "ainviteRules": [],
+    "tariffOptions": {
+        "hide_poweredby_link": true,
+        "chat_colors": true,
+        "push_url": true,
+        "operator_file_upload": true,
+        "invitation": true,
+        "offline_message": true
+    },
+    "channels": [
+        {
+            "app_link_format": true,
+            "id": "ff276f4657864701a94028a5be307b35",
+            "name": "SamsungElectronicsBot",
+            "page_id": "SamsungElectronicsBot",
+            "type": "telegram"
+        },
+        {
+            "id": "1e205a914252491999ebdca7acb3dac0",
+            "type": "instagram_webim",
+            "page_id": "156640081168533",
+            "username": "samsunguzbekistan",
+            "name": "Samsung"
+        },
+        {
+            "id": "58d62eceecec44a59e2252ad0d7a312e",
+            "type": "fb_webim",
+            "page_id": "156640081168533",
+            "name": "Samsung"
+        }
+    ]
+});

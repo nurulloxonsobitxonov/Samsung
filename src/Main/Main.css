@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Main {
+    width: 100%;
+    height: 600px;
+    margin-top: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: contain;
+    transform: translateY(-150px);
+    background-color: #F5F4F6;
+}
+
+.Main video {
+    position: absolute;
+    width: 1000px;
+    height: 490px;
+    margin-top: -0px;
+
+
+    margin-left: 100px;
+}
+
+
+.chevron_left {
+
+    background-color: #878687;
+    color: #F1F1F1;
+    /* transform: translateY(400px)translateX(-50px); */
+    position: absolute;
+    top: 200px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    left: 10px;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+
+.chevron_left:hover {
+    cursor: pointer;
+    background-color: #1c1c1c;
+
+    /* position: absolute; */
+}
+
+.chevron_right {
+    background-color: #878687;
+    color: #F1F1F1;
+    transform: translateY(200px)translateX(59em);
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    /* background-color: red; */
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+
+.chevron_right:hover {
+    cursor: pointer;
+    background-color: #1c1c1c;
+}
+
+.Fold4 {
+    font-size: 47px;
+    left: 80px;
+    position: absolute;
+    top: 80px;
+    color: #000;
+}
+
+.plain {
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    font-weight: 600;
+    border-bottom: 3px solid black;
+}
+
+
+.before {
+    /* transform: translateY(500px); */
+    position: absolute;
+    top: 160px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    left: 180px;
+    width: 170px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #000000;
+    color: white;
+
+}
+
+.before:hover {
+    cursor: pointer;
+    background-color: #555555;
+}
+
+@media all and (max-width:1000px) {
+
+    .Fold4 {
+        /* display: none; */
+        font-size: 20px;
+
+    }
+
+    .plain {
+        font-size: 10px;
+
+    }
+
+    .before {
+        width: 100px;
+        height: 20px;
+        border-radius: 100px;
+        background-color: #000000;
+        font-size: 10px;
+    }
+
+    .Main {
+        width: 50%;
+    }
+
+    /* .Main video {
+        width: 300px;
+        height: 200px;
+    } */
+
+    .chevron_left {
+        font-size: 10px;
+        width: 13px;
+        height: 13px;
+        position: absolute;
+        left: 5px;
+        top: 100px;
+
+    }
+
+    .chevron_right {
+        font-size: 10px;
+        width: 13px;
+        height: 13px;
+        position: absolute;
+        top: -110px;
+        left: 50px;
+        margin-left: -300px;
+    }
+
+    .Main {
+        width: 42.5%;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        background-size: contain;
+        transform: translateY(-150px);
+    }
+
+    @media all and (max-width:410px) {
+        .navbar {
+            width: 300px;
+            height: 100px;
+        }
+
+        .navbar img {
+            width: 100px;
+            height: 50px;
+        }
+
+        .i1 {
+            font-size: 25px;
+            transform: translateY(20px)translateX(30px);
+        }
+
+        .Main {
+            width: 450px;
+            height: 500px;
+        }
+
+        .chevron_left,
+        .chevron_right {
+            display: none;
+        }
+
+        .Fold4 {
+            font-size: 30px;
+
+        }
+
+        .Fold4 span {
+            position: absolute;
+            bottom: 40px;
+            font-weight: 700;
+            left: 60px;
+        }
+
+        .before {
+            width: 150px;
+            height: 40px;
+            font-size: 16px;
+            transform: translateY(-15px)translateX(-70px);
+            background-color: #000;
+        }
+
+        .plain {
+            padding-top: 50px;
+            transform: translateX(60px);
+            font-size: 17px;
+            font-weight: 400;
+        }
+
+        .Main video {
+            width: 1000px;
+            height: 50px;
+            margin-top: 300px;
+            transform: translateX(-500px);
+        }
+    }
+}

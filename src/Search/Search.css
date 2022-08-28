@@ -1,0 +1,109 @@
+.something {
+    font-size: 40px;
+    position: absolute;
+    top: -75px;
+    left: 400px;
+}
+
+.Search {
+    margin-top: 150px;
+    position: relative;
+}
+
+.icon {
+    font-size: 27px;
+    position: absolute;
+    bottom: 5px;
+    margin-left: 19px;
+    margin-bottom: 5px;
+}
+
+.search {
+    width: 450px;
+    height: 50px;
+    border: 1.8px solid #757575;
+    border-radius: 100px;
+    margin-left: 450px;
+    background-color: #f7f7f7;
+    position: relative;
+}
+
+.web {
+    border: none;
+    width: 350px;
+    bottom: 3px;
+    height: 40px;
+    background-color: #f7f7f7;
+    position: absolute;
+    right: 30px;
+    /* top: 105px; */
+}
+
+.web::placeholder {
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.galaxies {
+    margin-top: 50px;
+
+}
+
+.li_galaxies {
+    justify-content: space-around;
+    width: 43%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    width: fit-content;
+}
+
+
+.li_galaxy {
+    padding-left: 5px;
+    padding-top: 6px;
+    border-radius: 100px;
+    width: 100px;
+    font-size: 13px;
+    height: 28px;
+    border: 1px solid #D9D9D9;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.cheat {
+    transform: translateY(-24px) translateX(-100px);
+    width: 50%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    margin-left: 550px;
+}
+
+.cheat li {
+    /* margin-left: 20px; */
+}
+
+.li_galaxy:nth-child(5) {
+    padding-left: 18px;
+    padding-top: 6px;
+
+}
+
+.li_galaxy:hover {
+    background-color: #F2F2F2;
+
+}
+
+.someitem {
+    font-size: 12px;
+    margin: 20px 50px;
+    width: 90%;
+    margin-left: 50px;
+    height: 50px;
+    /* border: 2px solid red; */
+    margin-bottom: 30px;
+}
